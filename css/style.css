@@ -1,0 +1,95 @@
+
+body {
+  font-family: "Open Sans", sans-serif;
+  color: #272829;
+  background-color: #cdc1fa;
+}
+
+a {
+  color: #149ddd;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: "Raleway", sans-serif;
+  }
+
+#header {
+  position: fixed;
+  top: 20;
+  left:0;
+  bottom:0;
+  width: 120px;
+  padding:15px;
+  background: #040b14;
+  overflow-y: auto;
+}
+
+#main {
+  margin-left: 300px;
+  margin-right: 200px;
+
+}
+
+
+
+
+#hero {
+  width: 100%;
+  height: 100vh;
+  background: url("../img/profile.jpg")  top center;
+  background-size: cover;
+}
+
+
+
+#hero h1 {
+  margin: 0 0 10px 0;
+  font-size: 64px;
+  font-weight: 700;
+  line-height: 56px;
+  color: #fff;
+}
+
+#hero p {
+  color: #fff;
+  margin-bottom: 50px;
+  font-size: 26px;
+  font-family: "Poppins", sans-serif;
+}
+
+
+.skills .progress {
+  height: 50px;
+  display: block;
+  background: none;
+}
+
+.skills .progress .skill {
+  padding: 10px 0;
+  margin: 0 0 6px 0;
+  text-transform: uppercase;
+  display: block;
+  font-weight: 600;
+  font-family: "Poppins", sans-serif;
+  color: #050d18;
+}
+
+.skills .progress .skill .val {
+  float: right;
+  font-style: normal;
+}
+
+.skills .progress-bar-wrap {
+  background: #dce8f8;
+}
+
+.skills .progress-bar {
+  width: 1px;
+  height: 10px;
+  transition: .9s;
+  background-color: #149ddd;
+}
+
+
+
+
